@@ -5,81 +5,6 @@
 <p>網站倉儲: <a href="https://github.com/a40923146/cp2021_hw">https://github.com/a40923146/cp2021_hw</a></p>
 <p>網站連結: </p>
 <p>其他與個人或作業相關資料說明或介紹</p>
-<h1>git指令表</h1>
-<ul>
-<li>
-<p><code class="highlighter-rouge">git init</code></p>
-<p>建立新的本地端 Repository。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git clone [Repository URL]</code></p>
-<p>複製遠端的 Repository 檔案到本地端。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git status</code></p>
-<p>檢查本地端檔案異動狀態。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git add [檔案或資料夾]</code></p>
-<p>將指定的檔案（或資料夾）加入版本控制。用<span> </span><code class="highlighter-rouge">git add .</code><span> </span>可加入全部。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git commit</code></p>
-<p>提交（commit）目前的異動。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git commit -m "提交說明內容"</code></p>
-<p>提交（commit）目前的異動並透過<span> </span><code class="highlighter-rouge">-m</code><span> </span>參數設定摘要說明文字。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git stash</code></p>
-<p>獲取目前工作目錄的 dirty state，並保存到一個未完成變更的 stack，以方便隨時回復至當初的 state。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git log</code></p>
-<p>查看先前的 commit 記錄。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git push</code></p>
-<p>將本地端 Repository 的 commit 發佈到遠端。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git push origin [BRANCH_NAME]</code></p>
-<p>發佈至遠端指定的分支（Branch）</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git branch</code></p>
-<p>查看分支。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git branch [BRANCH_NAME]</code></p>
-<p>建立分支。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git checkout [BRANCH_NAME]</code></p>
-<p>取出指定的分支。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git checkout -b [BRANCH_NAME]</code></p>
-<p>建立並跳到該分支。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git branch -D [BRANCH_NAME]</code></p>
-<p>強制刪除指定分支（須先切換至其他分支再做刪除）。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git reset --hard [HASH]</code></p>
-<p>強制恢復到指定的 commit（透過 Hash 值）。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git checkout [HASH]</code></p>
-<p>切換到指定的 commit（與<span> </span><code class="highlighter-rouge">git checkout [BRANCH_NAME]</code><span> </span>相同)。</p>
-</li>
-<li>
-<p><code class="highlighter-rouge">git branch -m &lt;OLD_BRANCH_NAME&gt; &lt;NEW_BRANCH_NAME&gt;</code></p>
-<p>修改分支名稱。</p>
-</li>
-</ul>
 <h1>HW1</h1>
 <p>HW1 - 網際動畫與 touch typing 佔學期成績 20%.</p>
 <p><span style="background-color: #ffff99;">HW1 必須在 2021.10.20 22:00 之前完成</span>.</p>
@@ -167,10 +92,18 @@
 <p></p>
 <h2>w3</h2>
 <p>下載wink</p>
+<h2>w4</h2>
+<p>上傳wink</p>
 <h1>Wink</h1>
 <h2>問題</h2>
 <p>1.設定Path to FFmpeg時：需先使用過ShareX錄製過影片，才會有ffmpeg檔案供選擇</p>
 <p>2.Render：視窗大小需為偶數</p>
+<h2>上傳</h2>
+<p>至<a href="https://mde.tw/cad2021/content/Wink.html">https://mde.tw/cad2021/content/Wink.html</a>，空白處右鍵後點［檢視網頁原始碼］</p>
+<p>複製開頭為<span class="html-tag">&lt;h1&gt;</span><span>Wink</span><span class="html-tag">&lt;/h1&gt;至下個標題（&lt;h&gt;）</span><span class="html-tag">並將</span></p>
+<p><span class="html-tag"><span class="html-attribute-name">（１）data-dirname</span><span>="</span><span class="html-attribute-value">./../cmsimde/static</span><span>"刪減至只剩下<span class="html-attribute-name">data-dirname</span><span>="</span><span class="html-attribute-value">/static</span><span>"</span></span></span></p>
+<p><span class="html-tag"><span><span>（２）<span class="html-attribute-name">height</span><span>="</span><span class="html-attribute-value">712</span><span>"<span> </span></span><span class="html-attribute-name">width</span><span>="</span><span class="html-attribute-value">1138</span><span>" 將視窗更改為wink裡所設定之視窗大小</span></span></span></span></p>
+<p><span class="html-tag"><span><span>（３）&lt;source<span> </span><span class="html-attribute-name">src</span>="<a class="html-attribute-value html-resource-link" href="https://mde.tw/cad2021/downloads/wink/meArm_robot_wink.mp4" rel="noreferrer noopener" target="_blank">./../downloads/wink/meArm_robot_wink.mp4</a>"<span> </span><span class="html-attribute-name">type</span>="<span class="html-attribute-value">video/mp4</span>"/&gt;<span class="html-tag">&lt;/video&gt;更改為&lt;source src="./../downloads/Wink檔案名稱.mp4" type="video/mp4" /&gt;&lt;/video&gt;</span></span></span></span></p>
 <h2>測試</h2>
 <script>
 var winkVideoData = {
@@ -287,4 +220,6 @@ run()
 <script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
-<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script></div></div>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
+</div>
+</div>
